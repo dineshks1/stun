@@ -1,6 +1,9 @@
 sudo: false
 
 language: erlang
+arch:
+ - amd64
+ - ppc64le
 
 before_install:
   - pip install --user cpp-coveralls coveralls-merge
